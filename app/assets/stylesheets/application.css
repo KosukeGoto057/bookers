@@ -1,0 +1,166 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-box{
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 33px;
+}
+
+.top-title{
+  margin: 17.42px 0;
+}
+
+.top-p{
+  margin: 33px;
+}
+
+.top-p a{
+  color: #000;
+}
+
+.index-box{
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.index-title{
+  margin: 17.42px 0;
+}
+
+.index-table{
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+.index-table a{
+  color: #000;
+}
+
+.index-table th{
+  display: table-cell;
+  font-weight: bold;
+  text-align: center;
+}
+
+.index-table td{
+  margin: 33px;
+  padding: 1px 5px 7px;
+}
+
+.index-table tbody{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.index-table tr{
+  display: table-row;
+}
+
+.index-new{
+  margin: 16.185px 0;
+}
+
+.field, .action{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.error-explanation{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error-explanation h2{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error-explanation ul{
+  display: block;
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+.field-with-error{
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.show-box{
+  margin: 33px;
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.show-box p{
+  display: block;
+  margin: 33px;
+}
+
+.show-box strong{
+  font-weight: bold;
+}
+
+.show-box a{
+  color: #000;
+}
+
+.edit-box{
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.edit-heading{
+  margin-bottom: 33px;
+}
+
+.edit-box a{
+  color: #000;
+}
+
+.success{
+  color: green;
+}
